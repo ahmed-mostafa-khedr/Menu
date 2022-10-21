@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    
+}
+.fonts-family{
+  font-family: 'Cairo', sans-serif;
+font-family: 'El Messiri', sans-serif;
+}
+.NAV-Css{
+  background-color: #E9E2D0;
+  box-shadow: 0 0 10px white;
+  
+}
+input.butn{
+  color: #42032C;
+  background-color: transparent;
+  border:0;
+}
+input.butn:hover{
+  background-color: #42032C;
+  color:#E9E2D0;
+  border-radius: 10px;
+  
+  
+}
+.brannd{
+  font-weight: bold;
+  font-size:18px;
+  margin:auto;
+  text-shadow: 2px 0 1px #42032C;
+  color: #e45619;
+  animation-name: brand;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  opacity: 1;
+  
+}
+@keyframes brand {
+  0%{opacity: 1;}
+  25%{opacity: 0.5;}
+ 50%{opacity: 0.2;}
+ 75%{opacity: 0.5;}
+ 100%{opacity: 1;}
+}
+.header-text{
+  font-weight: bold;
+  color:#42032C;
+}
+.hr-one{
+  color: #e45619;
+  background-color: #e45619;
+  border: 2px solid #e45619;
+  border-radius: 10px;
+  animation-name: brand;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  opacity: 1;
+}
+/* .x{
+  background-color: transparent;
+  border: 0;
+  color:#42032C;
+  border: 1px solid #e45619;
+  padding: 5px;
+  border-radius: 5px;
+}
+.x:hover {
+
+  background-color:#e45619;
+  color:white;
+  font-weight: bold;
+  border-radius: 10px;
+} */
